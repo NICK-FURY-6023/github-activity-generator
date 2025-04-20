@@ -40,7 +40,7 @@ const generateFolderName = (date) => {
 // Helper: Generate a file name
 const generateFileName = (date) => {
   const timePart = date.format("hh-mm-ss_A");
-  return `${timePart}.html`;
+  return `${timePart}.c#`;
 };
 
 // Write the header to the file with borders
